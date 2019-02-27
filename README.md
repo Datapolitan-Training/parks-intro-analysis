@@ -4,21 +4,36 @@ A one-day survey course of data analytics tools, techniques, and best practices 
 <!-- ######  [back to top](#top) -->
 
 <a id="target-audience"></a>
-## Target Audience
-Managers, supervisors, and team leaders with a need to better understand the analytics process, as well as the key tools and techniques to to bring data-driven insights to city operations.
+# Target Audience
+Employees of all levels with a need to better understand the analytics process, as well as the key tools and techniques to to bring data-driven insights to city operations.
+
+# Goals
++ Demonstrate key design thinking techniques of brainstorming and process mapping as they relate to scoping a data analytics project
++ Discuss key issues leveraging data in a large public sector organization to support operational decision-making
++ Orient participants to Microsoft Excel as a tool for data analysis
++ Practice key skills for presenting data analysis to an audience
+
+# Learning Outcomes
++ Participants are able to leverage design thinking approaches to scope and plan their analysis
++ Participants understand the value of telling a true and compelling story with data for operational success
++ Participants are introduced to Microsoft Excel as a tool for performing data analysis
++ Participants are practiced presenting their analysis in a group setting
 
 - - -
 
-# Topics to be covered
+# Topics covered
 + Problem formulation and managing up
-+ Basic data cleaning and munging
-+ Data verification
 + Process mapping
++ Basic elements of data analysis
 + Team collaboration (not data-ing alone, asking and receiving feedback from peers)
+<!-- 
++ Data verification
 + Best practices with data (naming, analysis, reporting, visualization)
 + How to do documentation
 + Automation (macros)
+ -->
 
+- - - 
 
 # Class Outline
 + Introductions (10 mins)
