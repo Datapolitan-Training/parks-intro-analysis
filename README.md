@@ -13,18 +13,31 @@ Employees of all levels with a need to better understand the analytics process, 
 + Orient participants to Microsoft Excel as a tool for data analysis
 + Practice key skills for presenting data analysis to an audience
 
+## Participant Development Areas
+
+**Conceptualizing:** Guided problem ideation and process mapping for data work
+
+**Skill Development:** Introduction to design thinking and basic Microsoft Excel orientation
+
+**Integrating:** Synthesizing provided context into analysis
+
+**Communicating:** Group presentation of work without content critique (process over product)
+
+**Language Objective:** Become aware of the basic language and culture of data, as well as how it might be useful in their work at NYC Parks
+
+
 ## Learning Outcomes
 + Participants are able to leverage design thinking approaches to scope and plan their analysis
 + Participants understand the value of telling a true and compelling story with data for operational success
 + Participants are introduced to Microsoft Excel as a tool for performing data analysis
 + Participants are practiced presenting their analysis in a group setting
 
-## Topics covered
+<!-- ## Topics covered
 + Problem formulation and managing up
 + Process mapping
 + Basic elements of data analysis
 + Team collaboration (not data-ing alone, asking and receiving feedback from peers)
-<!-- 
+ --><!-- 
 + Data verification
 + Best practices with data (naming, analysis, reporting, visualization)
 + How to do documentation
