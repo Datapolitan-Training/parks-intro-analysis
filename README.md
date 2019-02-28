@@ -4,24 +4,22 @@ A one-day survey course of data analytics tools, techniques, and best practices 
 <!-- ######  [back to top](#top) -->
 
 <a id="target-audience"></a>
-# Target Audience
+## Target Audience
 Employees of all levels with a need to better understand the analytics process, as well as the key tools and techniques to to bring data-driven insights to city operations.
 
-# Goals
+## Goals
 + Demonstrate key design thinking techniques of brainstorming and process mapping as they relate to scoping a data analytics project
 + Discuss key issues leveraging data in a large public sector organization to support operational decision-making
 + Orient participants to Microsoft Excel as a tool for data analysis
 + Practice key skills for presenting data analysis to an audience
 
-# Learning Outcomes
+## Learning Outcomes
 + Participants are able to leverage design thinking approaches to scope and plan their analysis
 + Participants understand the value of telling a true and compelling story with data for operational success
 + Participants are introduced to Microsoft Excel as a tool for performing data analysis
 + Participants are practiced presenting their analysis in a group setting
 
-- - -
-
-# Topics covered
+## Topics covered
 + Problem formulation and managing up
 + Process mapping
 + Basic elements of data analysis
@@ -35,7 +33,7 @@ Employees of all levels with a need to better understand the analytics process, 
 
 - - - 
 
-# Class Outline
+## Class Outline
 + Introductions (10 mins)
 	+ Task: All participants introduce themselves and provide some details about their work
 	+ Outcome: Students are aware of each other’s basic experience and have a feeling of accomplishment and value to their work
@@ -114,12 +112,7 @@ Employees of all levels with a need to better understand the analytics process, 
 		+ SQL primer
 + Conclusion and dismissal (5 mins)
 
-
-- - - 
-
-## Key Questions
-+ Should the problem definition exercise be Parks-related or not?
-
+<!-- 
 - - -
 ## Data for Excercises
 + [NYPD Data](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-YTD/5uac-w243/data)
@@ -132,3 +125,4 @@ Employees of all levels with a need to better understand the analytics process, 
 	+ Format numbers as text to remove commas
 	+ 74,702 rows
 
+ -->
