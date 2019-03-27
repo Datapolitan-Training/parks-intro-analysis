@@ -1689,6 +1689,43 @@ name:excel-guide
 #### [Link back to Final Exercise](#final-ex)
 
 
+---
+exclude:true
+name:vlookup
+class:center,middle
+# How often do you need to combine data from different spreadsheets?
+
+---
+exclude:true
+
+# [VLOOKUP](https://support.office.com/en-us/article/VLOOKUP-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1)
++ Useful for referencing data from another sheet (reference tables)
++ Basic Syntax
+```
+=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+```
++ Example
+```
+=VLOOKUP(A2,SHEET2$A1:$D500,4,FALSE)
+```
++ Lookup the value in cell A2 in the range A1:D500 on SHEET2 and return whatever you find in column 4 (D)
+
+---
+exclude:true
+
+# VLOOKUP
++ We're going to write a formula to bring in the Sites information to the Features table
++ Insert a column next to `inspection_id`
++ This will be our key lookup value
++ Call the column "district"
++ Use this formula
+
+```
+=VLOOKUP(A2,AMPSInsExtract_Jun2016_Sites_20170613.csv!$A$1:$F$4841,2,FALSE)
+```
++ Do the same for "propid" and extract the borough with a formula
++ Add "inspection_date" if that looks interesting to you
+
 
 
     </textarea>
