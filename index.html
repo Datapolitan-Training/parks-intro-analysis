@@ -742,7 +742,7 @@ class:center,middle
 # 15 MIN BREAK
 
 ---
-
+exclude:true
 class:center,middle
 # Context for the data we're looking at today
 ???
@@ -751,47 +751,29 @@ class:center,middle
 
 ---
 
+exclude:true
 # Service Level Agreements (SLAs)
---
-
 + Minimum number of times a property must be serviced weekly
---
-
 + A: 5–7 visits
---
-
 + B: 3–5 visits
---
-
 + C: 1 visit
---
-
 + SLA level designated by borough
 
 ---
 
+exclude:true
 # Daily Tasks
---
-
 + Labor booking for routine litter and cleaning
---
 
 ![img-center-90](images/dt_web.png)
 
 ---
+exclude:true 
 
 # Supervisor Inspections
---
-
 + All sites should be inspected following Parks Inspection Program guidelines a minimum of once a month
---
-
 + Sites receive an Overall rating for all elements 
---
-
 + Sites also receive a Cleanliness rating 
---
-
 + Cleanliness rating only addresses the features addressed by the staff entering work in Daily Tasks
 
 
@@ -853,14 +835,14 @@ exclude:true
 
 ---
 
-class:center,middle
+class: center,middle
 # We're going to be using data from the<br> <a href="https://opendata.cityofnewyork.us/" target="_blank">NYC Open Data Portal</a> for the first part of today's data exercise
 
-## We'll be using <br>[FY2016-2017 Daily Tasks Park Cleaning Records](https://data.cityofnewyork.us/City-Government/FY2016-2017-Daily-Tasks-Park-Cleaning-Records/kwte-dppd)
+## We'll be using [Vehicle Collision Data](20140601_0630_NYPD_Motor_Vehicle_Collisions.xlsx)
 ???
 + Facilitator introduces the NYC Open Data Portal as appropriate for the class and the time available. 
 ---
-
+exclude:true
 # Data for Exercise
 ![img-center-90](images/dt_download_rev.png)
 
@@ -1033,15 +1015,13 @@ class:center,middle
 + **Values** -> determines how the values of the rows and columns are counted
 
 ---
-
+exclude:true
 # Summarize by Zone
 + How would we summarize the hours worked by Zone?
---
 
 <br>
 
 ![img-center-40](images/filter_zone.png)
---
 
 ## What are we telling Excel to do?
 
@@ -1056,13 +1036,10 @@ exclude:true
 + A short brainstorming exercise for the different operations that can be performed on the data
 
 ---
+exclude:true
 
 # Finding the Borough for Each Site
---
-
 + What if we want to aggregate by borough?
---
-
 + Can we do that easily with this data?
 
 ---
@@ -1077,11 +1054,11 @@ exclude:true
 --
 
 + And a whole lot more...
-
 ---
 
-exclude:true 
 name:cat-function
+exclude:true
+
 # Some Categories of Functions in Excel
 + Database functions
 + Date and time functions
@@ -1096,57 +1073,44 @@ name:cat-function
 
 ---
 
+exclude:true
 # Extracting the Borough
---
-
 + Insert a new column after `district`
---
-
 + Call it `Borough`
---
-
 + Insert the following formula into cell .blue[I2]
---
 
 ```
 =LEFT(H2,1)
 ```
---
-+ Copy the formula down through all the cells
---
 
++ Copy the formula down through all the cells
 + More information on the [LEFT function](https://support.office.com/en-us/article/LEFT-LEFTB-functions-9203d2d2-7960-479b-84c6-1ea52b99640c)
 
 ---
 
+exclude:true
 # Extracting the Borough
 ![img-right-35](images/pivottable4_refresh.png)
 + Be sure to refresh your pivottable
---
-
 + Filter on activity `Work` and sum by number of hours
 
 ![img-center-30](images/pivottable5_box.png)
---
 
 + Filter out the empty value
 
 ---
 
+exclude:true
 # Extracting the Borough
---
-
 + You can retype entries in a pivottable
---
-
 + For example, you can change the boroughs just by typing over the letters
---
 
 
 ![img-center-100](images/pivottable6_rev.png)
 
 ---
 
+exclude:true
 # Extracting the Borough
 + You could also write a formula
 
@@ -1159,7 +1123,7 @@ name:cat-function
 ```
 ???
 + This isn't necessary and should only be taught if appropriate for the understanding of the class and the time available for instruction
---
+
 <a href="https://giphy.com/gifs/reaction-office-space-that-was-easy-zcCGBRQshGdt6"><iframe src="https://giphy.com/embed/zcCGBRQshGdt6" width="400" height="228" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></a>
 
 #### [Sheet with formulas](data/20160601_20160630_Daily_Tasks_Park_Cleaning_Records_formulas.xlsx)
@@ -1180,8 +1144,9 @@ class:center,middle
 ???
 + This for reference only
 ---
-
 name:final-ex
+exclude:false
+
 # Your Turn
 + Take the problem you defined
 + Follow your map
@@ -1502,8 +1467,7 @@ exclude:true
 class:center, middle
 # THANK YOU!
 
-# Please take a moment to <br><a href="https://docs.google.com/forms/d/e/1FAIpQLScqxFDbN09n67Od5Cj5hIWatMIwnqBoQhLzTnMn4JT5hcLSBw/viewform?usp=sf_link" target="_blank">provide your feedback on class today</a>
-
+# Please take a moment to <br><a href="https://docs.google.com/forms/d/e/1FAIpQLScqxFDbN09n67Od5Cj5hIWatMIwnqBoQhLzTnMn4JT5hcLSBw/viewform?usp=sf_link" target="_blank">provide your feedback on class today</a> and checkout our <a href='https://datastudio.google.com/s/jsOZT47p2r4' target='_blank'>evaluation dashboard</a>
 # If you haven't filled out the <a href="https://goo.gl/forms/g0cuRiU0AO94Snm32" target="_blank">Skills Assessment</a>, please do that now
 
 
